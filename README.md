@@ -110,3 +110,12 @@ Install mongodb driver
 ```go
 go get go.mongodb.org/mongo-driver/mongo
 ```
+#### New let's work on frontend
+```
+mkdir frontend 
+cd frontend
+npm create vite@latest .
+```
+- React
+- Typescript and
+npm i

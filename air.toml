@@ -6,7 +6,7 @@ bin = "main" # The name of the binary file to be generated after building the pr
 cmd = "go build -o {{.Output}} {{.Input}}" # The command to build the project
 exclude = [
     "tmp/*",
-    "client/*",
+    "frontend/*",
 ] # Specifies the directories to be excluded from monitoring for changes
 include = [
     "**/*.go",
